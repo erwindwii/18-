@@ -1,4 +1,6 @@
-#tutorial meerubah isi list
+#tutorial meerubah isi list dengan metode insert 
+#insert(index, item) menambahkan item dari indeks tertentu
+
 cs = ["Anggun", "Dian", "Agung", "Adi", "Adam"]
 print("list yang tersedia", cs,"merubah isi list (index,item)")
 index = int(input("index:"))
