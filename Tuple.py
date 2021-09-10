@@ -1,4 +1,4 @@
-#mengakses nilai tuple.
+#mengakses nilai tuple dan memotong tuple.
 tup = ('co','di','ng','ku','y')
 print("co di ng ku y, ketik dua huruf yang ingin ditampilkan")
 start = int(input("index minimum :"))
