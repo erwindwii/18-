@@ -10,8 +10,8 @@ class User():
         return f"{self.name}:{self.email}:{self.__role}"
 
     def update_role(self, new_role):
-        if self.role != "user":
-            self.role = new_role
+        if self.__role != "user":
+            self.__role = new_role
 
 loli = User("Loli","loli@anime.com","user")
 loli.update_role("super_admin")
