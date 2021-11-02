@@ -4,7 +4,7 @@ class User():
     def __init__(self, name, email, role):
         self.name = name
         self.email = email
-        self.role = role
+        self.__role = role
     
     def info(self):
         return f"{self.name}:{self.email}:{self.role}"
