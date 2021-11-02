@@ -7,7 +7,7 @@ class User():
         self.__role = role
     
     def info(self):
-        return f"{self.name}:{self.email}:{self.role}"
+        return f"{self.name}:{self.email}:{self.__role}"
 
     def update_role(self, new_role):
         if self.role != "user":
